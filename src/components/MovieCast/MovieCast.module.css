@@ -1,0 +1,48 @@
+.container {
+  padding: 20px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.castList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.castItem {
+  flex: 1 1 150px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.castItem:hover {
+  transform: scale(1.05);
+}
+
+.castName {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.castRole {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.castImage {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-top: 10px;
+}

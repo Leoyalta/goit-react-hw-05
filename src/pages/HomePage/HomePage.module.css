@@ -1,0 +1,14 @@
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-size: 28px;
+}
+
+.homeTitle {
+  font-size: 32px;
+  margin-bottom: 20px;
+}

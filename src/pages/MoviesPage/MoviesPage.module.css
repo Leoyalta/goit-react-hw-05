@@ -1,0 +1,41 @@
+.container {
+  padding: 20px;
+}
+
+.error {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+.movieList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movieItem {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.movieLink {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.movieLink:hover {
+  text-decoration: underline;
+}
+
+.noMovies {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
